@@ -5,3 +5,5 @@
 
   ga('create', 'UA-101935983-1', 'auto');
   ga('send', 'pageview');
+
+alert ("kys");
