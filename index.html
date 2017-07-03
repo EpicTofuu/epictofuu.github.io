@@ -1,248 +1,144 @@
-<!DOCTYPE html>
+<!--
+introducing the new setup of my website, now,
+different bits of information are distributed among different files and folders!
+source code for the site is always available on my github, or via inspect element.
+-->
 <html>
+<link rel="stylesheet" href="css\main.css">
 <title> SheiTofu </title>
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-<style>
-.parr {
-	background-image: url("backdrop.png");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-	background-position: center;
-	height: 80%;
-	width: 100%;
-	
-}
+<link rel="shortcut icon" type="image/x-icon" href="res\misc/favicon.ico" />
+<script src="javascript\index.js"></script>
 
-body {
-	background: linear-gradient(#5D5D5D , #1C1C1C);
-}
+<!--gibe da head -->
+<div id = "headtab">
+<br>
+<ul>
+  <li><a href="subsections\misc\about.html">About</a></li>
+  <li><a href="mobileindex.html">Mobile</a></li>
+  <li><a href="blog.html">Blog</a></li>
+  <li><a href="subsections\archive\archive.html">Archive (boring)</a></li>
+  <li><a href="mailto:rinkaandchan@outlook.com">Contact</a></li>
+</ul>
+</div>
 
-.logo {
-	height: 30em;
-	display: flex;
-	align-items: center;
-	justify-content: center 
-}
-@font-face {
-    font-family: openDys;
-    src: url(OpenDyslexic3-Bold.ttf);
-}
-.subtitle {
-	font-family: openDys;
-	font-size: 40px;
-	color: #0c0c0c;
-	vertical-align:text-top;
-}
-.d {
-	font-family: Arial;
-	font-size: 20px;
-	vertical-align: text-top;
-}
-h1 {
-	font-family: openDys;
-}
-h2 { 
-	font-family: openDys;
-	position: absolute; 
-	top: 20px; 
-	left: 0; 
-	width: 100%; 
-	font-size: 20px;
-}
-h3 { 
-	font-family: openDys;
-	position: absolute; 
-	top: 20px; 
-	left: 0; 
-	width: 100%; 
-	font-size: 20px;
-}
-a {
-	color: #36a8c9;
-}
-a:link {
-    text-decoration: none;
-}
-a:visited {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: none;
-	color: #72c3da;
-}
-a:active {
-    text-decoration: none;
-}
-.supreme {
-	color: #72c3da;
-}
-h1 {
-	font-size: 60px;
-	color: #72c3da
-}
-p1 {
-	font-size: 18px;
-	font-family: Verdana;
-}
-hr.style14 { 
-  border: 0; 
-  height: 8px; 
-  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
-}
-table, th, td {
-    border: 1px solid #00000000;
-}
-.headtable {
-	font-size: 30px;
-	font-family: Verdana;
-	color: #ffffff;
-}
-.stuff {
-	font-size: 18px;
-	font-family: Verdana;
-}
-p2 {
-	font-family: Verdana;
-	font-size: 9px;
-}
-p.small {
-	line-height: 50%;
-}
-p {
-	font-size: 18px;
-	font-family: Verdana;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-li {
-    float: left;
-}
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 7px 30px;
-    text-decoration: none;
-	font-family: openDys;
-}
-li a:hover {
-    background-color: #111;
-}
-
-p1 {
-	font-family: openDys;
-	font-size: 30px;
-}
-</style>
+<!--humble beginnings-->
 
 <div class = "parr">
 <head>
-<ul>
-  <li><a href="https://discord.gg/bpF782r" target="_blank">Dicsord</a></li>
-  <li><a href="https://gamejolt.com/@SheiTofu" target="_blank">Game jolt</a></li>
-  <li><a href="https://github.com/SheiTofu" target="_blank">Github</a></li>
-  <li><a href="https://soundcloud.com/epictofu69"target="_blank">Soundcloud</a></li>
-  <li><a href="https://www.youtube.com/channel/UCJKvsz3L7QXHzX-OqQlKhtw" target="_blank">Youtube</a></li>
-  <li><a href="https://osu.ppy.sh/u/9078548" target="_blank">osu!profile :v</a></li>
-</ul>
-<div class = "logo">
-<a href="index.html">
-<img src = "logo.png" alt = "SheiTofu logo" style = "width:800px;height:367px;">
-</a>
-</div>
-<br><br><br>
-<div class = "subtitle">
 <center>
-Developer|Producer|Weeaboo
+<div class = "logo">
+<img src = "res\images\logo.png" alt = "SheiTofu logo" height="400" width="960">
+<div class = "subtitle">
 <br>
-<p1> scroll down </p1>
-</center>
+Developer | Producer | Weeaboo
+<br>
+<br>
 </div>
-<br><br><br><br><br><br><br>
-
-<ul>
-  <li><a href="about.html">About</a></li>
-  <li><a href="blog.html">Blog</a></li>
-  <li><a href="boring_stuff_archive.html">Archive (boring)</a></li>
-  <li><a href="mailto:rinkaandchan@outlook.com" target="_blank">Contact</a></li>
-</ul>
+</center>
+<script src="javascript\index.js"></script>
 </head>
 </div>
-<body>
-<center>
-<h1> Featured projects </h1><br>
-</center>
 </div>
-<div class = "headtable">
-Tofu Works
+<div id = "sidebar">
+
+<div id = "showbar">
+<input type="image" src="res\images\buttons\show.png" onclick = "show()" height = "64"/> <br>
 </div>
-<div style="clear: left;">
-<a href="https://soundcloud.com/epictofu69/sets/tofu-works" target="_blank">
-<br> <p style="float: left;"> <img src = "Tofu Works.jpg" alt = "Tofu Works cover" style = "width: 300px; height:300px;">
+
+<div id = "links">
+<input type="image" src="res\images\buttons\hide.png" onclick = "hide()" height = "64"/> <br>
+
+<a href="https://discord.gg/bpF782r" target="_blank">
+<img src = "res\images\buttons\discordbutton.png" alt = "discord button" height = "64"/> <br>
 </a>
-<p>
-<br><br><br><br><br>
-&nbsp; Here it is, my first album. And it's nearing completion! This album will contain a total of 32 songs. Remixes and all. You can <br>
-&nbsp; grab a copy of the album on my soundcloud, download one song, or the entire thing!
-</p>
-<br><br>
-<iframe width="80%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/229005760&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<a href="https://gamejolt.com/@SheiTofu" target="_blank">
+<img src = "res\images\buttons\gamejoltbutton.png" alt = "gamejolt button" height = "64"/> <br>
+</a>
+
+<a href="https://github.com/SheiTofu" target="_blank">
+<img src = "res\images\buttons\githubbutton.png" alt = "github button" height = "64"/> <br>
+</a>
+
+<a href="https://www.youtube.com/channel/UCJKvsz3L7QXHzX-OqQlKhtw" target="_blank">
+<img src = "res\images\buttons\youtubebutton.png" alt = "youtube button" height = "64"/> <br>
+</a>
+
+<a href="https://soundcloud.com/epictofu69"target="_blank">
+<img src = "res\images\buttons\soundcloudbutton.png" alt = "soundcloud button" height = "64"/> <br>
+</a>
+
+<a href="https://osu.ppy.sh/u/9078548" target="_blank">
+<img src = "res\images\buttons\osubutton.png" alt = "osu! button" height = "64"/> <br>
+</a>
 </div>
 </div>
 
-<div class = "headtable">
-<br><br><br>
-Straight outta chromosomes
-</div>
-<a href="https://gamejolt.com/games/straight-outta-chromosomes/247615" target="_blank">
-<br> <p style="float: right;"> <img src = "SOC.png" alt = "Straight outta chromosomes cover" style = "width: 600px; height:338px;">
-</a>
-<p>
-&nbsp; My newest game. Steal chromosomes, purchase upgrades and (very soon) defeat bosses with <br> &nbsp; too many chromosomes to count 8) 
-Available for free on game jolt.
-<br> <br>
-<a href="https://gamejolt.com/games/straight-outta-chromosomes/247615" target="_blank">
-&nbsp; <img src = "play now on gamejolt.png" alt = "gamejolt button" style = "width: 163px; height 58px;"> <br><br>
-</a>
-&nbsp; I've also created a new website for straight outta chromosomes available <a href = "https://sheitofu.github.io/straightouttachromosomes/"> here </a>
+<!--moist innards-->
+
+<body>
 <br>
-&nbsp;<a href="http://gamejolt.com/f/play-on-gamejolt-button/1918" target="_blank"> Button retrieved from here </a>
-</p>
-</body>
-<footer>
 <center>
-<br><br><br><br><br><br><br><br>
-<div class = "parr">
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<p2 class = "small">
-SheiTofu 2017 <br>
-site hosted by <a href="https://github.com/" target="_blank">github </a><br>
-help, I've been turned into a footer 8)
-</p2> 
+<h1> Featured Projects </h1>
+<br><br><br>
+
+<p>(totally didn't steal the buttons from <a href = "https://www.w3schools.com/css/css3_buttons.asp" target = "_blank"> here </a> or anything) </p> <br>
+<button class = "button" onclick="games()">Games</button>
+<button class = "button" onclick="music()">Music</button>
+<button class = "button" onclick="misc()">Misc</button>
+
+<div id = "games">
+
+<img src = "res\images\CGLTbutton.png" alt = "CGLT button" height="100" width="800">
+<br><br><br><br>
+
+<a href = "https://sheitofu.github.io/straightouttachromosomes" target = "_blank">
+<img src = "res\images\straightouttachromosomesbutton.png" alt = "straight outta chromosomes button" height="100" width="800">
+</a>
+<br><br><br><br>
+
+<a href = "https://sheitofu.itch.io/inversion" target = "_blank">
+<img src = "res\images\inversionbutton.png" alt = "inversion button" height="100" width="800">
+</a>
+
 </div>
+
+<div id = "music">
+<iframe width="65%" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/229005760&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</div>
+
+</center>
+
+<div id = "misc">
+<div class = "box">
+<p>
+This is where I store all of my miscellaneous projects from soundodger+ levels and dead osu!beatmaps to incomplete games and <strong>really</strong>
+weird music. At the moment, I have nothing much here, however I will be sure to fill it up with weird shit.
+</p>
+</div>
+<br><br>
+<center>
+<p> <a href = "https://sheitofu.itch.io/the-legal-drug" target = "_blank"> The legal drug </a><br>
+<p> <a href = "https://scratch.mit.edu/projects/70476048/" target = "_blank"> Buckets and balls </a>
+</center>
+
+</div>
+</body>
+
+<!--sicc end-->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<center>
+<script>
+document.write ("<p1>SheiTofu " + new Date().getFullYear() + "</p1>");
+</script>
+<br>
+<p1>
+site proudly hosted by <a href = "https://github.com"> github </a> <br>
+help I've been turned into a footer!
+</p1>
 </center>
 </footer>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--stop h4xing-->

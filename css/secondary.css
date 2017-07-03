@@ -1,0 +1,93 @@
+@font-face {
+    font-family: openDys;
+    src: url(OpenDyslexic3-Bold.ttf);
+}
+
+body {
+	background: linear-gradient(#5D5D5D , #1C1C1C);
+}
+
+h1 {
+	font-family: openDys;
+	font-size: 50px;
+	color: #ffffff;
+	margin-left: 30px;
+}
+
+h2 {
+	font-family: openDys;
+	font-size: 25px;
+	color: #ffffff;
+	margin-left: 30px;
+}
+
+p {
+	font-family: openDys;
+	font-size:17px;
+	color: #ffffff;
+	margin-left: 30px;
+	line-height: 25px;
+}
+
+p1 {
+	font-family: openDys;
+	font-size:10px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 12px;
+}
+
+a {
+	color: #36a8c9;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+	color: #72c3da;
+}
+a:active {
+    text-decoration: none;
+}
+
+#headtab
+{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: -18px;
+	bottom: 93%;
+	text-align: center;
+	z-index: 10;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 30px;
+  text-decoration: none;
+	font-family: openDys;
+}
+li a:hover {
+    background-color: #111;
+}
+
+.logo {
+  right: 40px;
+  position: absolute;
+}

@@ -1,0 +1,158 @@
+@font-face {
+    font-family: openDys;
+    src: url(OpenDyslexic3-Bold.ttf);
+}
+
+.parr {
+	background-image: url("background.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+	background-position: center;
+	height: 100%;
+	width: 100%;	
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	padding-top: 8%;
+	align-items: center;
+	justify-content: center 
+}
+
+.subtitle {
+	font-family: openDys;
+	font-size: 40px;
+	color: #0c0c0c;
+	vertical-align:text-top;
+}
+
+body {
+	background: linear-gradient(#5D5D5D , #1C1C1C);
+}
+
+h1 {
+	font-family: openDys;
+	font-size: 50px;
+	color: #ffffff;
+}
+
+p {
+	font-family: openDys;
+	font-size:18px;
+	color: #ffffff;
+	margin-left: 30px; 
+	line-height: 30px;
+}
+
+p1 {
+	font-family: openDys;
+	font-size:10px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 12px;
+}
+
+a {
+	color: #36a8c9;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+	color: #72c3da;
+}
+a:active {
+    text-decoration: none;
+}
+
+#games, #misc, #music {
+	position: absolute;
+	top: 160%;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+} 
+
+#misc {
+	word-wrap: break-word;
+}
+
+.box {
+	background-color: gray;
+	padding: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#headtab
+{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: -18px;
+	bottom: 93%;
+	text-align: center;
+	z-index: 10;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 30px;
+    text-decoration: none;
+	font-family: openDys;
+}
+li a:hover {
+    background-color: #111;
+}
+
+#sidebar {
+    position:absolute;
+    left:2%; top:60px; bottom: 0;
+    width: 178px;
+	text-align: left;
+	position: fixed;
+	z-index: 10;
+}
+
+#links, #showbar {
+	position: absolute;
+}

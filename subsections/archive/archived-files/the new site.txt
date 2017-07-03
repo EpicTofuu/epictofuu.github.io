@@ -1,0 +1,10 @@
+Here is my new, renovated website. Better file structure, better code.
+
+I have made a concious effort to organise files. In my old website, I had massive css scripts in each and every single one of my pages.
+Everything was in my root folder and in the end, I had no idea how my website worked anymore. So I've created a new website, one that does
+more than just "work".
+
+Additionally, I have created a blog with jekyll, some thing that allows me to create static blogs or something idfk. I'll be able to post more
+in future because of the automated system jekyll provides me with.
+
+Sh
