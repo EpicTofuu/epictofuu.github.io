@@ -12,13 +12,6 @@ function games ()
 	document.getElementById("misc").style.visibility="hidden";
 }
 
-function music ()
-{
-	document.getElementById("games").style.visibility="hidden";
-	document.getElementById("music").style.visibility="visible";
-	document.getElementById("misc").style.visibility="hidden";
-}
-
 function misc ()
 {
 	document.getElementById("games").style.visibility="hidden";
