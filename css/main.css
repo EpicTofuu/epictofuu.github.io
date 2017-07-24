@@ -10,7 +10,7 @@
     background-attachment: fixed;
 	background-position: center;
 	height: 100%;
-	width: 100%;	
+	width: 100%;
 	margin: 0;
 	padding: 0;
 }
@@ -18,7 +18,7 @@
 .logo {
 	padding-top: 8%;
 	align-items: center;
-	justify-content: center 
+	justify-content: center
 }
 
 .subtitle {
@@ -38,11 +38,23 @@ h1 {
 	color: #ffffff;
 }
 
+h2 {
+	font-family: openDys;
+	font-size: 35px;
+	color: #ffffff
+}
+
+h3 {
+	font-family: openDys;
+	font-size: 25px;
+	color: #ffffff
+}
+
 p {
 	font-family: openDys;
 	font-size:18px;
 	color: #ffffff;
-	margin-left: 30px; 
+	margin-left: 30px;
 	line-height: 30px;
 }
 
@@ -77,7 +89,7 @@ a:active {
 	margin: 0 auto;
 	left: 0;
 	right: 0;
-} 
+}
 
 #misc {
 	word-wrap: break-word;
