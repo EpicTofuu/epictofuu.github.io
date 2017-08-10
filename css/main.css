@@ -3,6 +3,11 @@
     src: url(OpenDyslexic3-Bold.ttf);
 }
 
+@font-face {
+    font-family: museo;
+    src: url(MuseoSans_500.otf);
+}
+
 .parr {
 	background-image: url("background.png");
     background-repeat:no-repeat;
@@ -13,6 +18,17 @@
 	width: 100%;
 	margin: 0;
 	padding: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.games {
+  text-align: right;
+  color: white;
+  font-family: museo;
+  line-height: 17px;
 }
 
 .logo {
@@ -23,13 +39,17 @@
 
 .subtitle {
 	font-family: openDys;
+  position: absolute;
 	font-size: 40px;
-	color: #0c0c0c;
-	vertical-align:text-top;
+  top: 70%;
+	color: #FFFFFF;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }
 
 body {
-	background: linear-gradient(#5D5D5D , #1C1C1C);
+	background-color: #7A8EFF;
 }
 
 h1 {
@@ -51,7 +71,7 @@ h3 {
 }
 
 p {
-	font-family: openDys;
+	font-family: museo;
 	font-size:18px;
 	color: #ffffff;
 	margin-left: 30px;
@@ -167,4 +187,9 @@ li a:hover {
 
 #links, #showbar {
 	position: absolute;
+}
+
+.gamelinks
+{
+  postion: relative;
 }

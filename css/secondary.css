@@ -3,6 +3,11 @@
     src: url(OpenDyslexic3-Bold.ttf);
 }
 
+@font-face {
+    font-family: museo;
+    src: url(MuseoSans_500.otf);
+}
+
 body {
 	background: linear-gradient(#5D5D5D , #1C1C1C);
 }
@@ -22,7 +27,7 @@ h2 {
 }
 
 p {
-	font-family: openDys;
+	font-family: museo;
 	font-size:17px;
 	color: #ffffff;
 	margin-left: 30px;
