@@ -29,6 +29,7 @@
   color: white;
   font-family: museo;
   line-height: 17px;
+  word-spacing: 2px;
 }
 
 .logo {
@@ -49,7 +50,7 @@
 }
 
 body {
-	background-color: #7A8EFF;
+	background-color: #575f91;
 }
 
 h1 {
@@ -87,7 +88,7 @@ p1 {
 }
 
 a {
-	color: #36a8c9;
+	color: #1ac957;
 }
 a:link {
     text-decoration: none;
@@ -146,10 +147,9 @@ a:active {
 #headtab
 {
 	position: fixed;
-	width: 100%;
-	left: 0;
+  left: 0;
+  right: 0;
 	top: -18px;
-	bottom: 93%;
 	text-align: center;
 	z-index: 10;
 }
@@ -157,7 +157,7 @@ a:active {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
     background-color: #333;
 }
