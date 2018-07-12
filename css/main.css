@@ -8,6 +8,11 @@
     src: url(MuseoSans_500.otf);
 }
 
+@font-face {
+    font-family: amiable;
+    src: url(MuseoSans_500.otf);
+}
+
 .parr {
 	background-image: url("background.png");
     background-repeat:no-repeat;
@@ -33,7 +38,7 @@
 }
 
 .logo {
-	padding-top: 8%;
+	padding-top: 3%;
 	align-items: center;
 	justify-content: center
 }
@@ -51,10 +56,17 @@
 
 body {
 	background-color: #575f91;
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: amiable;
+	padding: 0;
+	cellpading: 0;
+	margin: 0;
 }
 
 h1 {
-	font-family: openDys;
+	font-family: amiable;
 	font-size: 50px;
 	color: #ffffff;
 }
@@ -72,11 +84,17 @@ h3 {
 }
 
 p {
-	font-family: museo;
-	font-size:18px;
+	font-family: amiable;
 	color: #ffffff;
 	margin-left: 30px;
 	line-height: 30px;
+}
+
+th
+{
+	font-size: 20pt;
+	padding-left: 5px;
+	padding-right: 80px;
 }
 
 p1 {
@@ -88,7 +106,7 @@ p1 {
 }
 
 a {
-	color: #1ac957;
+	color: #3c6ae0;
 }
 a:link {
     text-decoration: none;
@@ -110,6 +128,16 @@ a:active {
 	margin: 0 auto;
 	left: 0;
 	right: 0;
+}
+
+#grad
+{
+	background: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,1));
+	postion: absolute;
+	left: 0;
+	height: 20%;
+	padding-left: 10px;
+	padding-top: 0.1px;
 }
 
 #misc {
